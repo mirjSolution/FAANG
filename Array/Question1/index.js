@@ -65,7 +65,7 @@ const findTwoSum = function (nums, target) {
       numsMap[numberToFind] = p;
     }
   }
-  return null;
+  return null; //Time complexity = O(N), Space complexity = O(N)
 };
 
 // 9. Run test case in optimal solution
